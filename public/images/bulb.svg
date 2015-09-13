@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../stylesheets/style.css"?>
+<svg width="18px" height="28px" viewBox="0 0 18 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Bulbbig-hackathon-iso</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-25.000000, -20.000000)" filter="url(#filter-1)" fill="#70D20F">
+            <path  class="bulb" d="M35.7687873,39.841406 L30.2312759,39.841406 C29.8430954,39.841406 29.5284569,40.1556148 29.5284569,40.5433431 C29.5284569,40.9310083 29.8430954,41.2452171 30.2312759,41.2452171 L35.7688505,41.2452171 C36.1569678,41.2452171 36.4716063,40.9310083 36.4716063,40.5433431 C36.4716063,40.155678 36.1569678,39.841406 35.7687873,39.841406 L35.7687873,39.841406 Z M35.6423633,42.1784407 L30.3576367,42.1784407 C29.9695194,42.1784407 29.6548809,42.4927126 29.6548809,42.8803778 C29.6548809,43.2680429 29.9695194,43.5822517 30.3576367,43.5822517 L35.6424264,43.5822517 C36.0304806,43.5822517 36.3451191,43.2680429 36.3451191,42.8803778 C36.3451191,42.4927126 36.0304806,42.1784407 35.6423633,42.1784407 L35.6423633,42.1784407 Z M30.3938391,44.4829753 C31.7620744,45.7462475 31.9029667,46 32.4490983,46 L33.5010523,46 C34.0349269,46 34.1664686,45.7648009 35.6061609,44.4829753 L30.3938391,44.4829753 L30.3938391,44.4829753 Z M41,27.6645676 C41,32.4171418 36.9079935,35.0805018 36.9079935,38.8308766 L35.0446133,38.8308766 C35.0461928,34.2085549 39.1028182,31.7738309 39.1028182,27.6645676 C39.1028182,19.9724149 26.8971186,19.9603615 26.8971186,27.6645676 C26.8971186,31.7701076 30.8834242,34.0999481 30.9759204,38.8308766 L29.0920065,38.8308766 C29.0920065,35.0804386 25,32.4170787 25,27.6645676 C25.0000632,17.4503511 41,17.4399385 41,27.6645676 L41,27.6645676 Z" id="Bulb" sketch:type="MSShapeGroup" transform="translate(33.000000, 33.000000) rotate(1.000000) translate(-33.000000, -33.000000) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,64 @@
+html,
+body {
+    text-align: center;
+    background-color: #212121;
+    color: white;
+}
+
+.hackathon {
+    font-family: 'Roboto Slab', serif;
+}
+
+.litoral {
+    font-family: "Roboto";
+}
+
+.green_bulb {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #8BC34A, 0 0 70px #8BC34A, 0 0 80px #8BC34A, 0 0 100px #8BC34A;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?oy3tbo');
+    src: url('../fonts/icomoon.eot?#iefixoy3tbo') format('embedded-opentype'), url('../fonts/icomoon.ttf?oy3tbo') format('truetype'), url('../fonts/icomoon.woff?oy3tbo') format('woff'), url('../fonts/icomoon.svg?oy3tbo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bulb:before {
+    content: "\e600";
+}
+
+.icon-bulb {
+    font-size: 150px;
+}
