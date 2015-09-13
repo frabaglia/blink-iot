@@ -11,3 +11,9 @@ Client side: Socket.io.
 <strong>Hardware:</strong>
 
 Arduino + Ethernet shield.
+
+<strong>Hands inside:</strong>
+
+You should config the server IP in the iot-blink.ino file:
+
+char server[] = "localhost:3000? or maybe a heroku functional site";
